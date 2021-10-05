@@ -13,7 +13,7 @@ const Team = () => {
       <div class="row">
         <div class="col span-1-of-7">
           <div class="card">
-            <img src={Customer} />
+            <img src={Customer} alt="team-member-name"/>
             <div>Name</div>
             <div>Title</div>
             <div>Diocese</div>
