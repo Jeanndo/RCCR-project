@@ -214,8 +214,9 @@ background-color: aqua;
   margin-left: 150px;
 }
 .section-welcome {
+  margin-top:100px;
   margin: 0 auto;
-  /* background-image:linear-gradient( to right, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/pray4.jpg); */
+  background-image:linear-gradient( to right, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('https://cdn.pixabay.com/photo/2017/08/07/02/21/people-2598802_960_720.jpg');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -226,6 +227,7 @@ background-color: aqua;
 }
 
 .Mission-heading {
+  color:#fff;
   text-align: center;
   text-transform: uppercase;
   font-size: 140%;
@@ -254,6 +256,7 @@ background-color: aqua;
 }
 .step-headings {
   margin-bottom: 20px;
+  color:#fff;
 }
 .step-row {
   /*   margin-bottom: 20px;  */
