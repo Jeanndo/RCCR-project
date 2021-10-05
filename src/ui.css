@@ -1,0 +1,530 @@
+/*....GROBAL DEFINITIONS....*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #555;
+  font-family: "Lato", "arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility; /*this make font render in a perfect awy*/
+}
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/*...HEADER....*/
+header {
+  height: 15vh;
+  margin-top: 0;
+}
+.logo {
+  float: left;
+  height: 100px;
+  width: auto;
+  vertical-align: middle;
+  margin-top: -25px;
+}
+
+/*
+.my-nav{
+background-color: aqua;
+
+    position: fixed;
+    z-index: 9999;
+    width:500%;
+    
+
+}
+*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0;
+  width: 100%;
+  height: 20%;
+  position: fixed;
+  z-index: 9999;
+  width: 500%;
+  height: 15vh;
+  margin-top: 0;
+}
+.item {
+  /*background-color: green;*/
+  width: 500%;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  position: fixed;
+  z-index: 9999;
+}
+.item--1 {
+  grid-column: 1/4;
+  background-color: #000;
+  height: 13%;
+}
+.slideshow-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+}
+.islide-tem {
+  /*    background-color: green;*/
+}
+.slide-item--1 {
+  grid-column: 1/2;
+}
+.slide-item--2 {
+  grid-column: 2/3;
+  /* background-image: url(../img/Holy-spirit-4.jpg); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.heading-1 {
+  font-size: 100%;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 200;
+}
+.main-nav {
+  float: right;
+  list-style: none;
+  position: fixed;
+  width: 80%;
+  height: 40px;
+  color: #e67e22;
+  /*    margin-top: 20px;*/
+  margin-left: 150px;
+}
+.main-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #fff;
+  font-size: 90%;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #e67e22;
+}
+.Translate option {
+  background-color: #000;
+  border: none;
+  color: white;
+  height: 5%;
+}
+/*...SECTIIONS....*/
+.section-slideshow {
+  margin-bottom: 30px;
+  /*height: 70vh;*/
+}
+.slideshow-row {
+  /*margin-top: 50px;*/
+}
+
+/*............................................................*/
+/*..ANOTHER SLIDESHOW...*/
+/*............................................................*/
+
+.Projects #ttr_slideshow_inner ul {
+  list-style: outside none none;
+}
+.Projects #ttr_slideshow_inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.Projects #ttr_slideshow_inner ul li > a {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.Projects #ttr_slideshow_inner > ul li {
+  position: absolute;
+}
+.Projects .ttr_slideshow_last {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+}
+.Projects .ttr_slideshow_last div a,
+.Projects .ttr_slideshow_last a {
+  pointer-events: auto;
+}
+.Projects .ttr_slideshow {
+  box-sizing: content-box !important;
+  position: relative;
+}
+
+/*............................................................*/
+/*..ANOTHER SLIDESHOW...*/
+/*............................................................*/
+
+.col-text1 {
+  text-align: center;
+
+  /*    background-color: blueviolet;*/
+}
+.col-text2 {
+  color: white;
+  padding: 0 15px;
+  background-color: #555;
+}
+
+.col-text2 p {
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-family: monospace;
+  color: white;
+}
+
+.spritual-life {
+  margin-bottom: 6px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.slideshow {
+  max-width: 100%;
+  max-height: 100%;
+}
+.spiritual-img {
+  /*
+  height: 10px;
+    width:10px;
+*/
+}
+.spiritual-img img {
+  height: 200px;
+  width: 100px;
+  float: left;
+  border-radius: 50%;
+}
+.spiritual-para {
+  margin-left: 150px;
+}
+.section-welcome {
+  margin: 0 auto;
+  /* background-image:linear-gradient( to right, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/pray4.jpg); */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  /*    margin-bottom: 50px;*/
+  height: 85vh;
+}
+
+.Mission-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 140%;
+  word-spacing: 2px;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+.community-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 140%;
+  /*    word-spacing: 2px; */
+  margin: 20px 0;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+.welcome-para {
+  font-size: 90%;
+  line-height: 145%;
+  margin-bottom: 40px;
+}
+.lord-our-God {
+  height: 50px;
+  width: 50px;
+}
+.step-headings {
+  margin-bottom: 20px;
+}
+.step-row {
+  /*   margin-bottom: 20px;  */
+}
+.steps {
+  display: inline-block;
+  color: #e67e22;
+  border: 2px solid #e67e22;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 5px;
+  /* float: left;*/
+  font-size: 150%;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+.section-community {
+  margin-bottom: 50px;
+}
+.community-row {
+  margin-bottom: 50px;
+}
+.Community-img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+.icon-big {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  font-size: 120%;
+  margin-right: 10px;
+  /*secretes to align texts and icons*/
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+.community-links:link,
+.community-links:visited {
+  text-decoration: none;
+  margin-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  color: #e67e22;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+.community-links:hover,
+.community-links:active {
+  border-bottom: 1px solid transparent;
+  color: #555;
+}
+.section-testimonials {
+  /*   background-color:#efefef;*/
+  /* background-image:linear-gradient( to right, rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85)), url(../img/Holy-mary-3.jpg); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  height: 90vh;
+}
+.testimonials-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 140%;
+  word-spacing: 2px;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  margin-bottom: 70px;
+}
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+}
+blockquote:before {
+  content: "\201C";
+  font-size: 400%;
+  display: block;
+  position: absolute;
+
+  top: -5px;
+  left: -3px;
+}
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+}
+cite img {
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.section-signup {
+  /*    background-color:#efefef;*/
+  height: 70vh;
+}
+.Signup-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 140%;
+  word-spacing: 2px;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+/*
+.Signup-heading::after{
+    content: ".";
+    display: inline-block;
+    font-weight: 600;
+    font-size: 60px;
+    width: 500%;
+    color: aqua;
+}
+*/
+.Signup-para {
+  margin-bottom: 30px;
+}
+.signup-row {
+  text-align: center;
+}
+.sign-btn:link,
+.sign-btn:visited,
+input[type="submit"] {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 200px;
+  background-color: #e67e22;
+  font-weight: 300;
+  display: inline-block;
+  padding: 10px 30px;
+  transition: background-color 0.5s;
+}
+input[type="submit"] {
+  border: 0;
+  cursor: pointer;
+}
+.sign-btn:hover,
+.sign-btn:active {
+  background-color: #555;
+}
+/*...FORM...*/
+.section-form {
+  height: 95vh;
+}
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="checkbox"] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {
+  outline: none;
+}
+.section-team {
+  background-color: #efefef;
+  height: 80vh;
+}
+.team-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 140%;
+  word-spacing: 2px;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+.card {
+  display: block;
+  width: 150px;
+  height: 300px;
+  background-color: white;
+  margin-right: 12px;
+  text-align: center;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+
+  /*    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.49);*/
+}
+.card img {
+  margin-top: 15px;
+
+  height: 140px;
+  width: 130px;
+  /*    border-radius: 200px;*/
+}
+.social-media:link,
+.social-media:visited {
+  text-decoration: none;
+  display: inline-block;
+  color: #e67e22;
+  font-size: 90%;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: border-bottom 0.5s, color0.5s, padding-bottom 0.5s;
+}
+.social-media:hover,
+.social-media:active {
+  color: #555;
+  border-bottom: 1px solid #e67e22;
+  padding-bottom: 1px;
+}
+
+.footer {
+  background-color: #555;
+  color: #fff;
+}
+.footer-row {
+  text-align: center;
+}
+.footer-link-container {
+  display: inline-block;
+  margin-right: 15px;
+}
+.footer-links:link,
+.footer-links:visited {
+  text-decoration: none;
+  display: inline-block;
+  color: #e67e22;
+  font-size: 90%;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: color0.5s;
+}
+.footer-links:hover,
+.footer-links:active {
+  color: #fff;
+}
+.footer-links:first-of-type {
+  margin-right: 800px;
+}
+.footer-logo {
+  width: 200px;
+  height: auto;
+  /*    text-align: center;*/
+}
+.footer-list {
+  margin-top: 25px;
+  float: right;
+  margin-left: -95px;
+  margin-top: 50px;
+  list-style: none;
+}
+.footer-list li a:link,
+.footer-list li a:visited {
+  text-decoration: none;
+  color: #fff;
+}

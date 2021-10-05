@@ -1,0 +1,47 @@
+
+
+/* big tabletes to 1200px(width small than the 1140px)*/
+@media only screen and(max-width:1200px) {
+   
+ *,
+  *::before,
+    *::after{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+/* small tabletes to big tabletes: from 768px to 1023px*/
+@media only screen and(max-width:1023px) {
+    body{
+        font-size: 18px;
+    }
+
+   .main-nav li a:link,
+   .main-nav li a:visited{
+/*
+    padding: 8px 0;
+    color: #fff;
+*/
+     font-size: 5%;
+/*
+    text-decoration: none;
+    text-transform: capitalize;
+      border-bottom: 2px solid transparent;
+     transition:border-bottom .2s;
+*/
+}
+
+    
+}
+/*small phone to small tabletes: from 481 to 767px*/
+@media only screen and(max-width:767px) {
+   
+    
+}
+/*small phone: from 0 to 480px*/
+@media only screen and(max-width:480px) {
+   
+    
+}
