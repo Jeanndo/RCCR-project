@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation from '../Navigation/Navigation'
 import SlideShow  from '../SlideShow/SlideShow'
 import Mission from  '../Mission/Mission'
+import Community from '../Community/Community'
 
 const Landing = () => {
     return (
@@ -9,6 +10,7 @@ const Landing = () => {
            <Navigation/>
            <SlideShow/>
            <Mission/>
+           <Community/>
         </div>
     )
 }
