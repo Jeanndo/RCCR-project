@@ -62,7 +62,7 @@ background-color: aqua;
 }
 .item--1 {
   grid-column: 1/4;
-  background-color: #000;
+  background-color: #B60000;
   height: 13%;
 }
 .slideshow-container {
@@ -115,7 +115,7 @@ background-color: aqua;
 }
 .main-nav li a:hover,
 .main-nav li a:active {
-  border-bottom: 2px solid #e67e22;
+  border-bottom: 2px solid #fff;
 }
 .Translate option {
   background-color: #000;
@@ -531,4 +531,28 @@ input[type="checkbox"] {
 .footer-list li a:visited {
   text-decoration: none;
   color: #fff;
+}
+
+/*****SAINT*****/
+.slide-container{
+  background-color: rgb(167, 166, 166);
+}
+.saint-of-the-day{
+padding:10px;
+text-align: center;
+height: 400px;
+}
+.saint-of-the-day-title{
+  color:#fff;
+  text-transform: uppercase;
+  line-height: 1.7;
+  font-weight: 200px;
+  font-size: 16px;
+}
+.saint-of-the-day-description{
+padding:10px;
+text-align: center;
+}
+.saint-of-the-day-name{
+  color:#fff;
 }
