@@ -556,3 +556,34 @@ text-align: center;
 .saint-of-the-day-name{
   color:#fff;
 }
+.chart-header{
+  background-color:#fff;
+}
+/***Messages****/
+.message-container{
+  height:55vh;
+  /* 
+  display: flex;
+  flex-direction:column; */
+}
+.user-one{
+  padding:5px;
+  width: 100%;
+  background-color:rgb(201, 197, 197);
+  border-bottom-left-radius:5px;
+  border-top-right-radius:5px;
+  border-top-left-radius:5px;
+}
+.user-two{
+  border-bottom-left-radius:5px;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left:300px;
+  width: 100%;
+  background-color:#69c0ff;
+}
+.chart-body-container{
+  margin-top:-30px;
+}

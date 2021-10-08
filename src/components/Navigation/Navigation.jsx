@@ -28,13 +28,7 @@ const Navigation = () => {
                   <Link to="/community">Community</Link>
                 </li>
                 <li>
-                  <Link to="/diocesses">Dioceses</Link>
-                </li>
-                <li>
                   <Link to="prayer-groups">Prayer groups</Link>
-                </li>
-                <li>
-                  <Link to="/saint">Saint of the day</Link>
                 </li>
                 <li>
                   <Link to="/chart-rooms">Chart Room</Link>
