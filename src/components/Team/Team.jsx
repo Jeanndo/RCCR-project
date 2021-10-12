@@ -8,7 +8,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 
 const Team = () => {
   return (
-    <section className="section-team">
+    <section className="section-team" id="team">
       <div className="row">
         <h2 className="team-heading">Get in touch with our team</h2>
       </div>
