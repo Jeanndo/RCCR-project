@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col } from "antd";
 import { Input } from 'antd';
-import {SendOutlined,SmileTwoTone,PaperClipOutlined} from '@ant-design/icons';
+import {SendOutlined,PaperClipOutlined} from '@ant-design/icons';
 
 
 const Messages = () => {

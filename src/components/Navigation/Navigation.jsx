@@ -1,8 +1,12 @@
 import React from "react";
 import Logo from '../../assets/UECCRRRR.png'
 import {Link} from 'react-router-dom'
+import { useHistory } from "react-router-dom";
 
 const Navigation = () => {
+
+const history = useHistory()
+
   return (
     <div>
       <header>
@@ -10,9 +14,10 @@ const Navigation = () => {
           <div className="container">
             <div className="item item--1">
               <img
+                onClick={()=>history.push("/")}
                 src={Logo}
                 alt="RCCR log"
-                class="logo"
+                className="logo"
               />
               <ul className="main-nav">
                 <li>

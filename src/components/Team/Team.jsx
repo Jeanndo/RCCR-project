@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Customer from "../../assets/customer-1.jpg";
 import Customer2 from "../../assets/customer-2.jpg";
 import Customer3 from "../../assets/customer-3.jpg";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import TwitterIcon from "@material-ui/icons/Twitter";
 
 const Team = () => {
   return (
@@ -13,20 +15,34 @@ const Team = () => {
       <div class="row">
         <div class="col span-1-of-7">
           <div class="card">
-            <img src={Customer} alt="team-member-name"/>
+            <img src={Customer} alt="team-member-name" />
             <div>Name</div>
             <div>Title</div>
             <div>Diocese</div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <FacebookIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.facebook.com" class="social-media">
                 facebook
               </Link>
             </div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <TwitterIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.twitter.com" class="social-media">
-                @twitter
+                Twitter
               </Link>
             </div>
           </div>
@@ -38,15 +54,29 @@ const Team = () => {
             <div>Title</div>
             <div>Diocese</div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <FacebookIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.facebook.com" class="social-media">
                 facebook
               </Link>
             </div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <TwitterIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.twitter.com" class="social-media">
-                @twitter
+                Twitter
               </Link>
             </div>
           </div>
@@ -59,15 +89,29 @@ const Team = () => {
             <div>Title</div>
             <div>Diocese</div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <FacebookIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.facebook.com" class="social-media">
                 facebook
               </Link>
             </div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <TwitterIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.twitter.com" class="social-media">
-                @twitter
+                Twitter
               </Link>
             </div>
           </div>
@@ -79,15 +123,29 @@ const Team = () => {
             <div>Title</div>
             <div>Diocese</div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <FacebookIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.facebook.com" class="social-media">
                 facebook
               </Link>
             </div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <TwitterIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.twitter.com" class="social-media">
-                @twitter
+                Twitter
               </Link>
             </div>
           </div>
@@ -99,15 +157,29 @@ const Team = () => {
             <div>Title</div>
             <div>Diocese</div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <FacebookIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.facebook.com" class="social-media">
                 facebook
               </Link>
             </div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <TwitterIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.twitter.com" class="social-media">
-                @twitter
+                Twitter
               </Link>
             </div>
           </div>
@@ -119,15 +191,29 @@ const Team = () => {
             <div>Title</div>
             <div>Diocese</div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <FacebookIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.facebook.com" class="social-media">
                 facebook
               </Link>
             </div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <TwitterIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.twitter.com" class="social-media">
-                @twitter
+                Twitter
               </Link>
             </div>
           </div>
@@ -139,15 +225,29 @@ const Team = () => {
             <div>Title</div>
             <div>Diocese</div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <FacebookIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.facebook.com" class="social-media">
                 facebook
               </Link>
             </div>
             <div>
-              <i class="icon ion-md-cart  icon-big"></i>
+              <TwitterIcon
+                style={{
+                  color: "#e67e22",
+                  fontSize: "20px",
+                  marginBottom: "-5px",
+                  marginRight: "5px",
+                }}
+              />
               <Link to="/https://www.twitter.com" class="social-media">
-                @twitter
+                Twitter
               </Link>
             </div>
           </div>
