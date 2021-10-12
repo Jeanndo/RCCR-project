@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 
 const Communities = () => {
   return (
-    <section className="section-community">
+    <section className="section-community" id="community">
       <div className="row ">
         <h2 className="community-heading">Our Community</h2>
       </div>

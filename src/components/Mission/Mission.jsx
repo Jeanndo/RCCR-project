@@ -2,7 +2,7 @@ import React from "react";
 
 const Mission = () => {
   return (
-    <section className="section-welcome" style={{ marginTop: "20px" }}>
+    <section className="section-welcome" style={{ marginTop: "20px" }} id="mission">
       <div className="row ">
         <h2 className="Mission-heading">Discover our mission!</h2>
         <p className="welcome-para">

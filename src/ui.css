@@ -454,10 +454,10 @@ input[type="checkbox"] {
 }
 .card {
   display: block;
-  width: 150px;
+  width: 170px;
   height: 300px;
   background-color: white;
-  margin-right: 12px;
+  /* margin-right: 12px; */
   text-align: center;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -537,6 +537,7 @@ input[type="checkbox"] {
 /*****SAINT*****/
 .slide-container{
   background-color: rgb(167, 166, 166);
+  margin:0px 20px 0px 20px;
 }
 .saint-of-the-day{
 padding:10px;

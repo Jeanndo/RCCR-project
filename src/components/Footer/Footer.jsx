@@ -1,10 +1,11 @@
 import React from "react";
 import Logo from "../../assets/UECCRRRR.png";
 import { Link } from "react-router-dom";
+// import { animateScroll as scroll } from "react-scroll/modules"
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" >
       <div className="row footer-row">
         <img src={Logo} className="footer-logo" alt="footer" />
       </div>
