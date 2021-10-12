@@ -6,7 +6,7 @@
 }
 html {
   color: #555;
-  font-family: "Lato", "arial", sans-serif;
+  font-family: Century Gothic,Arial,Helvetica,sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility; /*this make font render in a perfect awy*/
@@ -21,6 +21,7 @@ header {
   margin-top: 0;
 }
 .logo {
+  cursor: pointer;
   float: left;
   height: 100px;
   width: auto;
@@ -586,4 +587,7 @@ text-align: center;
 }
 .chart-body-container{
   margin-top:-30px;
+}
+.community-features{
+  color:#e67e22;
 }

@@ -4,31 +4,31 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="row footer-row">
-        <img src={Logo} class="footer-logo" alt="footer" />
+    <footer className="footer">
+      <div className="row footer-row">
+        <img src={Logo} className="footer-logo" alt="footer" />
       </div>
-      <div class="row">
-        <div class="footer-link-container">
-          <Link to="/about" class="footer-links">
+      <div className="row">
+        <div className="footer-link-container">
+          <Link to="/about" className="footer-links">
             About us
           </Link>
-          <Link to="/contactus" class="footer-links">
+          <Link to="/contactus" className="footer-links">
             Contact us
           </Link>
-          <ul class="footer-list">
-            <li class="footer-item">
-              <i class="icon ion-md-cart  icon-big"></i>
+          <ul className="footer-list">
+            <li className="footer-item">
+              <i className="icon ion-md-cart  icon-big"></i>
               <Link to="/https://www.facebook.com">facebook</Link>
             </li>
-            <li class="footer-item">
-              <i class="icon ion-md-cart  icon-big"></i>
+            <li className="footer-item">
+              <i className="icon ion-md-cart  icon-big"></i>
               <Link to="/https://www.twiter.com">twiter</Link>
             </li>
           </ul>
         </div>
       </div>
-      <div class="row footer-row">
+      <div className="row footer-row">
         <p>Copyright&copy;2021 all rights reserved</p>
       </div>
     </footer>
