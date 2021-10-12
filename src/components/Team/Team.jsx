@@ -8,13 +8,13 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 
 const Team = () => {
   return (
-    <section class="section-team">
-      <div class="row">
-        <h2 class="team-heading">Get in touch with our team</h2>
+    <section className="section-team">
+      <div className="row">
+        <h2 className="team-heading">Get in touch with our team</h2>
       </div>
-      <div class="row">
-        <div class="col span-1-of-7">
-          <div class="card">
+      <div >
+        <div className="col span-1-of-7">
+          <div className="card">
             <img src={Customer} alt="team-member-name" />
             <div>Name</div>
             <div>Title</div>
@@ -28,7 +28,7 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.facebook.com" class="social-media">
+              <Link to="/https://www.facebook.com" className="social-media">
                 facebook
               </Link>
             </div>
@@ -41,14 +41,14 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.twitter.com" class="social-media">
+              <Link to="/https://www.twitter.com" className="social-media">
                 Twitter
               </Link>
             </div>
           </div>
         </div>
-        <div class="col span-1-of-7">
-          <div class="card">
+        <div className="col span-1-of-7">
+          <div className="card">
             <img src={Customer2} alt="team-member 2" />
             <div>Name</div>
             <div>Title</div>
@@ -62,7 +62,7 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.facebook.com" class="social-media">
+              <Link to="/https://www.facebook.com" className="social-media">
                 facebook
               </Link>
             </div>
@@ -75,15 +75,15 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.twitter.com" class="social-media">
+              <Link to="/https://www.twitter.com" className="social-media">
                 Twitter
               </Link>
             </div>
           </div>
         </div>
 
-        <div class="col span-1-of-7">
-          <div class="card">
+        <div className="col span-1-of-7">
+          <div className="card">
             <img src={Customer3} alt="team-member3" />
             <div>Name</div>
             <div>Title</div>
@@ -97,7 +97,7 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.facebook.com" class="social-media">
+              <Link to="/https://www.facebook.com" className="social-media">
                 facebook
               </Link>
             </div>
@@ -110,14 +110,14 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.twitter.com" class="social-media">
+              <Link to="/https://www.twitter.com" className="social-media">
                 Twitter
               </Link>
             </div>
           </div>
         </div>
-        <div class="col span-1-of-7">
-          <div class="card">
+        <div className="col span-1-of-7">
+          <div className="card">
             <img src={Customer} alt="team-member4" />
             <div>Name</div>
             <div>Title</div>
@@ -131,7 +131,7 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.facebook.com" class="social-media">
+              <Link to="/https://www.facebook.com" className="social-media">
                 facebook
               </Link>
             </div>
@@ -144,14 +144,14 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.twitter.com" class="social-media">
+              <Link to="/https://www.twitter.com" className="social-media">
                 Twitter
               </Link>
             </div>
           </div>
         </div>
-        <div class="col span-1-of-7">
-          <div class="card">
+        <div className="col span-1-of-7">
+          <div className="card">
             <img src={Customer2} alt="team-member5" />
             <div>Name</div>
             <div>Title</div>
@@ -165,7 +165,7 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.facebook.com" class="social-media">
+              <Link to="/https://www.facebook.com" className="social-media">
                 facebook
               </Link>
             </div>
@@ -178,14 +178,14 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.twitter.com" class="social-media">
+              <Link to="/https://www.twitter.com" className="social-media">
                 Twitter
               </Link>
             </div>
           </div>
         </div>
-        <div class="col span-1-of-7">
-          <div class="card">
+        <div className="col span-1-of-7">
+          <div className="card">
             <img src={Customer3} alt="team-member-n" />
             <div>Name</div>
             <div>Title</div>
@@ -199,7 +199,7 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.facebook.com" class="social-media">
+              <Link to="/https://www.facebook.com" className="social-media">
                 facebook
               </Link>
             </div>
@@ -212,14 +212,14 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.twitter.com" class="social-media">
+              <Link to="/https://www.twitter.com" className="social-media">
                 Twitter
               </Link>
             </div>
           </div>
         </div>
-        <div class="col span-1-of-7">
-          <div class="card">
+        <div className="col span-1-of-7">
+          <div className="card">
             <img src={Customer} alt="teamn" />
             <div>Name</div>
             <div>Title</div>
@@ -233,7 +233,7 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.facebook.com" class="social-media">
+              <Link to="/https://www.facebook.com" className="social-media">
                 facebook
               </Link>
             </div>
@@ -246,7 +246,7 @@ const Team = () => {
                   marginRight: "5px",
                 }}
               />
-              <Link to="/https://www.twitter.com" class="social-media">
+              <Link to="/https://www.twitter.com" className="social-media">
                 Twitter
               </Link>
             </div>

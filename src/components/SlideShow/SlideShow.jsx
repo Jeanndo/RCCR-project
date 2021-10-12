@@ -5,7 +5,7 @@ import Img from "../../assets/holy-spirit-OCN.jpg";
 
 const SlideShow = () => {
   return (
-    <div className="row slide-container">
+    <div className="slide-container">
       <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 16 }}>
         <Col className="gutter-row " span={12}>
           <Carousel autoplay>
