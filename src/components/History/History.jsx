@@ -6,8 +6,6 @@ import { Row, Col, Divider } from 'antd';
 import YearlyHistory from './YearlyHistory';
 import Marquee from 'react-fast-marquee';
 
-
-
 const { Step } = Steps;
 
 const History = () => {
