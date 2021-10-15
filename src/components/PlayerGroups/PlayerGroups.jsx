@@ -24,22 +24,22 @@ const PlayerGroups = () => {
         <>
         <Navigation/>
         <Layout>
-        <Sider trigger={null} collapsible collapsed={state.collapsed}>
+        <Sider trigger={null} collapsible collapsed={state.collapsed} style={{backgroundColor:'#fff'}}>
           <div className="logo" />
-          <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
+          <Menu theme="light" mode="inline" defaultSelectedKeys={['1']}>
             <Menu.Item key="1" icon={<UserOutlined />}>
-              nav 1
+              Ruhengeri
             </Menu.Item>
             <Menu.Item key="2" icon={<VideoCameraOutlined />}>
-              nav 2
+             Kigali
             </Menu.Item>
             <Menu.Item key="3" icon={<UploadOutlined />}>
-              nav 3
+              Butare
             </Menu.Item>
           </Menu>
         </Sider>
         <Layout className="site-layout">
-          <Header className="site-layout-background" style={{ padding: 0 }}>
+          <Header className="site-layout-background" style={{ padding: 0,backgroundColor:'#fff'}}>
             {React.createElement(state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
               className: 'trigger',
               onClick:toggle,
