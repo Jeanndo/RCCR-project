@@ -5,6 +5,7 @@ import News from '../components/News/News'
 import Chart from '../components/ChartRooms/Chart'
 import Signup from '../components/Auth/Signup'
 import Signin from '../components/Auth/Login'
+import History from "../components/History/History";
 
 class Routes extends React.Component {
     render() {
@@ -16,6 +17,7 @@ class Routes extends React.Component {
            <Route exact path="/chart-rooms" component={Chart}/>
            <Route exact path="/signup" component={Signup}/>
            <Route exact path="/login" component={Signin}/>
+           <Route exact path="/history" component={History}/>
            
           </Switch>
         </Router>

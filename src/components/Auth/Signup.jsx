@@ -115,6 +115,7 @@ const Signup = () => {
         >
           Sign Up
         </Button>
+        &nbsp;
         <Link to="/login">Already have account? Login</Link>
       </Form.Item>
     </Form>
