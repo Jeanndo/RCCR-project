@@ -1,6 +1,8 @@
 import React from 'react'
-import { List, Avatar, Space } from 'antd';
+import { List, Avatar, Space,Divider } from 'antd';
 import { MessageOutlined, LikeOutlined, StarOutlined } from '@ant-design/icons';
+import YearlyTeam from './YearlyTeam';
+import Footer from '../Footer/Footer';
 
 const listData = [];
 for (let i = 0; i < 3; i++) {
@@ -24,16 +26,11 @@ const IconText = ({ icon, text }) => (
 
 const YearlyHistory = () => {
     return (
-
+    <>
     <List
     itemLayout="vertical"
     size="large"
     dataSource={listData}
-    footer={
-      <div>
-        <b>ant design</b> footer part
-      </div>
-    }
     renderItem={item => (
       <List.Item
         key={item.title}
@@ -59,6 +56,18 @@ const YearlyHistory = () => {
       </List.Item>
     )}
   />
+  <Divider/>
+  <h4 style={{textAlign:'center',fontWeight:400,fontSize:'16px'}}>Team</h4>
+  <div style={{display:'flex',flexDirection:'row'}}>
+  <YearlyTeam/>
+  <YearlyTeam/>
+  <YearlyTeam/>
+  <YearlyTeam/>
+  <YearlyTeam/>
+  <YearlyTeam/>
+  <YearlyTeam/>
+  </div>
+  </>
     )
 }
 
