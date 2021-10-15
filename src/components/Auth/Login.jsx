@@ -69,7 +69,7 @@ const Login = () => {
         >
           Login
         </Button>
-        <Link to="signup">Don't have accout? Signup</Link>
+        <Link to="signup">&nbsp;Don't have accout? Signup</Link>
       </Form.Item>
       
     </Form>
