@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import CallIcon from "@material-ui/icons/Call";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 const Contacts = () => {
-  console.log("Hello:",JSON.parse(sessionStorage.getItem("rccRwUser")).data.user.lastName)
   return(
   <div className="Contacts">
     <div className="Tel1">
@@ -16,7 +15,7 @@ const Contacts = () => {
     </div>
     <div className="Email">info@rccrwanda.com</div>
 
-    {JSON.parse(sessionStorage.getItem("rccRwUser")).data.user.lastName != null? (
+    {JSON.parse(sessionStorage.getItem("rccRwUser")) != null? (
       <div className="name-auth">
         <div>{JSON.parse(sessionStorage.getItem("rccRwUser")).data.user.lastName}</div>
         <Link to="/dashboard">
