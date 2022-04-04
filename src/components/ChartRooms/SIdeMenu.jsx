@@ -5,7 +5,6 @@ import {
   MessageOutlined
 } from "@ant-design/icons";
 
-
 const { Sider } = Layout;
 
 const SIdeMenu = ({ state }) => {

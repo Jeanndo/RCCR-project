@@ -6,6 +6,7 @@ import Building3 from "../../assets/building3.jpg";
 import Lisbon from "../../assets/lisbon-3.jpg";
 import London from "../../assets/london.jpg";
 import Community from "../../assets/community1.jpg";
+import Toorbar from "../Navigation/Toolbar/Toolbar";
 import People from "../../assets/peaple.jpg";
 import Berlin from "../../assets/berlin.jpg";
 import SanFrancisco from "../../assets/san-francisco.jpg";
@@ -16,6 +17,7 @@ import { Link } from "react-router-dom";
 
 const Communities = () => {
   return (
+    <div>
     <section className="section-community" id="community">
       <div className="row ">
         <h2 className="community-heading">Our Community</h2>
@@ -449,6 +451,7 @@ const Communities = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

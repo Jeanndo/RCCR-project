@@ -4,7 +4,7 @@ import {
   MenuUnfoldOutlined,
   MenuFoldOutlined,
 } from "@ant-design/icons"
-import Navigation from "../Navigation/Navigation";
+import Toorbar from "../Navigation/Toolbar/Toolbar";
 import SideMenu from "./SIdeMenu";
 import Marquee from "react-fast-marquee";
 import ChartBody from "./ChartBody";
@@ -20,9 +20,9 @@ const Chart = () => {
     });
   };
   return (
-      <div>
-    <Navigation/>
-    <Layout style={{marginBottom:'30px'}}>
+    <div>
+    <Toorbar />
+    <Layout>
      <SideMenu state={state}/>
       <Layout className="site-layout">
         <Header className="chart-header" style={{ padding: 0 }}>
@@ -34,7 +34,7 @@ const Chart = () => {
             }
           )}
           <Marquee style={{marginTop:'-80px',float:'right'}}>
-            <h2>Chart within any community</h2>
+            <h2>Chat within any community</h2>
             </Marquee>
         </Header>
         <Content

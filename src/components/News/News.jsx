@@ -1,7 +1,7 @@
 import React from "react";
 import { List, Avatar, Space } from "antd";
 import { MessageOutlined, LikeOutlined, StarOutlined } from "@ant-design/icons";
-import Navigation from "../Navigation/Navigation";
+import Toorbar from "../Navigation/Toolbar/Toolbar";
 import Footer from "../Footer/Footer";
 
 const listData = [];
@@ -11,9 +11,9 @@ for (let i = 0; i < 23; i++) {
     title: `Live christian life ${i}`,
     avatar: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
     description:
-      "Ant Design, a design language for background applications, is refined by Ant UED Team.",
+      "Address a prayer to God with RCC.",
     content:
-      "We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.",
+      "We are The Rwandan Charismatics,it's very greatfull Join us right now, are you looking for the place where you can find charismatic units? Don't worry! here we go!, this is where you are looking for!. in God we believe, in Jesus we trust, Holy spirit our pariticularity and we can't also forget Holy Mary. ",
   });
 }
 
@@ -27,8 +27,8 @@ const IconText = ({ icon, text }) => (
 const News = () => {
   return (
     <div>
-      <Navigation />
-      <div className="row" style={{ marginBottom: "20px" }}>
+      <Toorbar />
+      <div className="row" >
         <List
           itemLayout="vertical"
           size="large"
@@ -57,7 +57,7 @@ const News = () => {
                 <img
                   width={272}
                   alt="logo"
-                  src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"
+                  src="https://cdn.vectorstock.com/i/1000x1000/65/08/pentecost-sunday-holy-spirit-vector-28346508.webp"
                 />
               }
             >

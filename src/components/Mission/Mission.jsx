@@ -26,7 +26,7 @@ const Mission = () => {
         </div>
         <div className="col span-1-of-5 box  ">
           <div className="steps"> 2</div>
-          <h3 className="step-headings">Jesus Chrust</h3>
+          <h3 className="step-headings">Jesus Christ</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
             libero culpa quos sunt in, ea deleniti.

@@ -27,16 +27,17 @@ $ cd RCC-project
 Install dependincies as they appear in package.json file by
 
 ```
-$ npm install
+$ npm install // yarn install
 ```
 To start the server do
 
 ```
-$ npm run start
+$ npm run start // yarn run start
 ```
 ![Home page]()
 
-### Contact us for More  +250785182823 or Email: izerefaifelix@gmail.com
+### Contact us for More  +250785182823 or Email: uecrrwanda@gmail.com
 ### Contributors
 [UKWITEGETSE Jean De Dieu](https://github.com/Jeanndo)
+and
 [IZERE Ange Felix](https://github.com/Angelus123)

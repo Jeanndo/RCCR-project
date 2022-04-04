@@ -535,29 +535,7 @@ input[type="checkbox"] {
 }
 
 /*****SAINT*****/
-.slide-container{
-  background-color: rgb(167, 166, 166);
-  margin:0px 20px 0px 20px;
-}
-.saint-of-the-day{
-padding:10px;
-text-align: center;
-height: 400px;
-}
-.saint-of-the-day-title{
-  color:#fff;
-  text-transform: uppercase;
-  line-height: 1.7;
-  font-weight: 200px;
-  font-size: 16px;
-}
-.saint-of-the-day-description{
-padding:10px;
-text-align: center;
-}
-.saint-of-the-day-name{
-  color:#fff;
-}
+
 .chart-header{
   background-color:#fff;
 }

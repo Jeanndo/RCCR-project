@@ -1,6 +1,6 @@
 import { Form, Input, Button} from 'antd';
 import { Link } from 'react-router-dom';
-import Navigation from '../Navigation/Navigation';
+import Toorbar from "../Navigation/Toolbar/Toolbar";
 
 const Login = () => {
 
@@ -14,9 +14,9 @@ const Login = () => {
 
   return (
     <div>
-    <Navigation/>
+    <Toorbar/>
     <Form
-     style={{margin:'40px 350px 0px 350px',backgroundColor:'#ccc',padding:'25px 0px 20px 0px',borderRadius:'5px'}}
+      style={{margin:'40px 350px 0px 350px',backgroundColor:'#ccc',padding:'25px 0px 20px 0px',borderRadius:'5px'}}
       name="basic"
       labelCol={{
         span: 8,

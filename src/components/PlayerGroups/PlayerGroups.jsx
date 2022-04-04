@@ -7,8 +7,7 @@ import {
   VideoCameraOutlined,
   UploadOutlined,
 } from '@ant-design/icons';
-import Navigation from '../Navigation/Navigation';
-import Footer from '../Footer/Footer';
+import Toorbar from "../Navigation/Toolbar/Toolbar";
 
 const { Header, Sider, Content } = Layout;
 
@@ -21,8 +20,8 @@ const PlayerGroups = () => {
 
       
     return (
-        <>
-        <Navigation/>
+      <div>
+        <Toorbar/>
         <Layout>
         <Sider trigger={null} collapsible collapsed={state.collapsed} style={{backgroundColor:'#fff'}}>
           <div className="logo" />
@@ -57,7 +56,7 @@ const PlayerGroups = () => {
           </Content>
         </Layout>
       </Layout>
-      </>
+      </div>
     )
 }
 

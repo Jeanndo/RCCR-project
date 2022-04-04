@@ -27,7 +27,7 @@ const history = useHistory()
                   <Link to="/news" style={{color:'#fff'}}>News</Link>
                 </li>
                 <li>
-                  <Link to="mission"smooth={true} duration={1000} style={{color:'#fff'}}>Mission</Link>
+                  <Link to="/mission"smooth={true} duration={1000} style={{color:'#fff'}}>Mission</Link>
                 </li>
                 <li>
                   <Link to="community" smooth={true} duration={1000} style={{color:'#fff'}}>Community</Link>

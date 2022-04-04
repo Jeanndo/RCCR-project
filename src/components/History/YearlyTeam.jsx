@@ -5,11 +5,11 @@ import Card from "react-bootstrap/Card"
 const YearlyTeam = () => {
     return (    
  <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/59208992?v=4" />
+  <Card.Img variant="top" src="https://cdn.vectorstock.com/i/1000x1000/65/08/pentecost-sunday-holy-spirit-vector-28346508.webp" />
   <Card.Body>
-    <Card.Title>Title</Card.Title>
+    <Card.Title>Berge</Card.Title>
     <Card.Text>
-      Jeanndo
+      Sylivan
     </Card.Text>
   </Card.Body>
 </Card>
