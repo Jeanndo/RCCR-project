@@ -21,7 +21,7 @@ const Signup =  () => {
     console.log('Success:', values);
     try {
       const responseData = await sendRequest(
-        "http://localhost:4042/api/v1/signup",
+        "https://rcc-rwanda.herokuapp.com/api/v1/signup",
         "POST",
         JSON.stringify(values),
         { "Content-Type": "application/json" }
