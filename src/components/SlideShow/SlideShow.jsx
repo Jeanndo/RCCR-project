@@ -6,7 +6,7 @@ import OpenInNewIcon from "@material-ui/icons/OpenInNew";
 import "./SlideShow.css";
 const SlideShow = () => {
   return (
-    <div className="slide-container">
+    <div className="slide-container" style={{}}>
       <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 16 }}>
         <Col className="gutter-row " span={12}>
           <Carousel autoplay>

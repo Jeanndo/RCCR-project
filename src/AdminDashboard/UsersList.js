@@ -161,13 +161,13 @@ const UserList = () => {
                       <StyledTableCell component="th" scope="row">
                         {user.fullName}
                       </StyledTableCell>
-                      <StyledTableCell align="left">
+                      <StyledTableCell align="center">
                         {user.phone}
                       </StyledTableCell>
-                      <StyledTableCell align="left">
+                      <StyledTableCell align="center">
                         {user.email}
                       </StyledTableCell>
-                      <StyledTableCell align="left">
+                      <StyledTableCell align="center">
                         <div style={{ display: "flex" }}>
                           <div
                             style={{
@@ -222,3 +222,4 @@ const UserList = () => {
 };
 
 export default UserList;
+cd 

@@ -6,7 +6,7 @@ import Building3 from "../../assets/building3.jpg";
 import Lisbon from "../../assets/lisbon-3.jpg";
 import London from "../../assets/london.jpg";
 import Community from "../../assets/community1.jpg";
-import Toorbar from "../Navigation/Toolbar/Toolbar";
+import Layout from "../../hoc/Layout/Layout";
 import People from "../../assets/peaple.jpg";
 import Berlin from "../../assets/berlin.jpg";
 import SanFrancisco from "../../assets/san-francisco.jpg";

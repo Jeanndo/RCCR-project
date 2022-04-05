@@ -13,13 +13,13 @@ import LocalActivityIcon from "@material-ui/icons/LocalActivity";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import PeopleIcon from "@material-ui/icons/People";
 import { Link } from "react-router-dom";
-import Toorbar from "../Navigation/Toolbar/Toolbar"
+import Layout from "../../hoc/Layout/Layout"
 import Footer from "../Footer/Footer"
 
 const Documentations = () => {
   return (
     <div>
-    <Toorbar/>
+    <Layout/>
     <section className="section-community">
       <div className="row ">
         <h2 className="community-heading">Our Library</h2>

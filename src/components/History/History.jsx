@@ -1,6 +1,6 @@
 import React from 'react'
 import { Steps} from 'antd';
-import Toorbar from "../Navigation/Toolbar/Toolbar";
+import Layout from "../../hoc/Layout/Layout";
 import Footer from '../Footer/Footer';
 import { Row, Col, Divider } from 'antd';
 import YearlyHistory from './YearlyHistory';
@@ -22,7 +22,7 @@ const History = () => {
 
     return (
       <div>
-        <Toorbar />
+        <Layout />
         <Marquee> <h2>History of Charismatique in Rwanda from 1950 until now.</h2></Marquee>
         <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 16 }}style={{margin:'0px 50px 0px 50px'}}>
         <Col className="gutter-row" span={4} style={{position:'fixed'}}>

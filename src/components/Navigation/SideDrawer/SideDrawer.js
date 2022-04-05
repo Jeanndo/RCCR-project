@@ -15,14 +15,15 @@ const sideDrawer = ( props ) => {
     return  <Aux> 
               
       <Backdrop show ={props.open} clicked= {props.closed} />  
-            <div className = {attachedClasses.join(' ')}>
-                    <Logo height='11%'/>
+            <div className = {attachedClasses.join(' ')} >
+            <div onClick={props.closed} style={{color:'red', width:'fit-content', padding:'0 20px', float:'right', fontSize:'21px', fontWeight:400, width:'100%', textAlign:'right'}} >x</div>
+                    <Logo height='auto' width=""/>
                    
                     
                 <nav>
                     <NavigationItems />
                 </nav>
-                <button onClick={props.closed}>EXIT</button>
+                <button onClick={props.closed} style={{color:'red', width:'fit-content', padding:'0 20px'}} >EXIT</button>
             </div>
         </Aux>
         }

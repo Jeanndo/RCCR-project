@@ -1,7 +1,7 @@
 import { Form, Input, Button, Checkbox } from 'antd';
 import { useState, useContext} from 'react';
 import { useHistory } from "react-router-dom"
-import Toorbar from "../Navigation/Toolbar/Toolbar";
+import Layout from "../../hoc/Layout/Layout";
 import { useHttpClient } from "../../shared/hooks/http-hook"
 import { AuthContext } from "../../shared/context/auth-context"
 import {Link} from "react-router-dom"
@@ -50,7 +50,7 @@ const Signup =  () => {
 console.log("Firstname",firstName)
   return (
     <div>
-    <Toorbar/>
+    <Layout/>
     <Form
      style={{margin:'40px 350px 0px 350px',backgroundColor:'#ccc',padding:'25px 0px 20px 0px',borderRadius:'5px'}}
       name="basic"

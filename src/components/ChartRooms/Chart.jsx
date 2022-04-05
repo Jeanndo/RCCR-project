@@ -1,5 +1,6 @@
 import React from "react";
 import { Layout} from "antd";
+import Lay from "../../hoc/Layout/Layout";
 import {
   MenuUnfoldOutlined,
   MenuFoldOutlined,
@@ -21,7 +22,7 @@ const Chart = () => {
   };
   return (
     <div>
-    <Toorbar />
+    <Lay />
     <Layout>
      <SideMenu state={state}/>
       <Layout className="site-layout">

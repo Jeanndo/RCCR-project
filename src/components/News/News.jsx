@@ -1,7 +1,7 @@
 import React from "react";
-import { List, Avatar, Space } from "antd";
+import { List, Avatar, Space, Layout } from "antd";
 import { MessageOutlined, LikeOutlined, StarOutlined } from "@ant-design/icons";
-import Toorbar from "../Navigation/Toolbar/Toolbar";
+import Lay from "../../hoc/Layout/Layout";
 import Footer from "../Footer/Footer";
 
 const listData = [];
@@ -27,7 +27,8 @@ const IconText = ({ icon, text }) => (
 const News = () => {
   return (
     <div>
-      <Toorbar />
+      <Lay />
+      <Layout />
       <div className="row" >
         <List
           itemLayout="vertical"
